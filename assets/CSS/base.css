@@ -1,0 +1,56 @@
+:root{
+ --base-color:"#FFAB08",
+ --main-text-color:"#000000",
+ --second-bg-color:"#F2F2F3",
+ --second-text-color:"#1b1b1b",
+}
+
+.w-300{
+ width: 300px;
+}
+
+/* flexbox uchun kerak boladigan boshlang'ich stylelar */
+.d-flex{
+ display: flex;
+}
+.j-center{
+ justify-content: center;
+}
+.a-center{
+ align-items: center;
+}
+.j-between{
+ justify-content: space-between;
+}
+.j-around{
+ justify-content: space-around;
+}
+.a-start{
+ align-items: flex-start;
+}
+.a-end{
+ align-items: flex-end;
+}
+.gap{
+ gap: 8px;
+}
+.gap1{
+ gap: 12px;
+}
+.gap2{
+ gap: 18px;
+}
+.gap3{
+ gap: 24px;
+}
+.gap4{
+ gap: 30px;
+}
+
+/* paddings */
+.p-14-8{
+ padding: 8px 14px;
+}
+.p-12-9{
+ padding: 9px 12px;
+}
