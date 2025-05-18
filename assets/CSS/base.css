@@ -54,3 +54,53 @@
 .p-12-9{
  padding: 9px 12px;
 }
+
+.p-71-12{
+ padding: 12px 71px;
+}
+
+/* Buttons */
+button{
+ border: none;
+ background: none;
+}
+
+.create-button{
+ padding: 12px 71.5px;
+ background: #FF7020;
+ color: #fff;
+ border-radius: 12px;
+ font-size: 16px;
+ transition: 0.3s;
+}
+.create-button:hover{
+ background: #FFAB08;
+}
+.create-button.disabled{
+ background: #F9F9F9;
+ color: #ACACAC;
+}
+.create-button:active{
+ background: #F86310;
+}
+.send-button{
+ padding: 12px 101.5px;
+ background: #F2F2F3;
+ color: #000;
+ border-radius: 12px;
+ font-size: 16px;
+ transition: 0.3s;
+}
+.send-button:hover{
+ background: #FFAB08;
+ color: #fff;
+}
+.send-button:active{
+ background: #F86310;
+ color: #fff;
+
+}
+.send-button.disabled{
+ background: #F9F9F9;
+ color: #ACACAC;
+}

@@ -7,7 +7,102 @@
  box-sizing: border-box;
 }
 
-
+html,
 body{
  font-family: "Nunito", sans-serif;
+ width: 100%;
+ height: 100%;
+}
+.container{
+ max-width: 1024px;
+ padding: 0px 32px;
+ margin: 0 auto;
+}
+
+
+.header{
+ background: #FFAB08;
+ padding: 24px;
+}
+.logobox{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* hero section */
+.hero{
+ width: 100%;
+ height: 550px;
+ background: url(../images/bg.png) ;
+ background-size: 100% 550px;
+ background-repeat: no-repeat;
+ background-position: center;
+
+}
+.hero-title{
+ font-size: 50px;
+ display: flex;
+ flex-direction: column;
+ color: #fff;
+}
+.hero-subtitle{
+  font-size: 50px;
+  color: #FF5C00;
+}
+.hero-right{
+ display: flex;
+ flex-direction: column;
+ gap: 52px;
+}
+.hero-paragraph{
+ color:#fff;
+}
+
+/* bu juda katta manitorlar uchun va ekranlar uchun ishlatiladigan media */
+@media (min-width:1980px){
+ .container{
+  max-width: 1800px;
+ }
+}
+
+@media (max-width:1024px){
+  .container{
+   max-width: 100%;
+   padding: 0px 40px;
+  }
+}
+
+@media (max-width:768px){
+  .container{
+   max-width: 100%;
+   padding: 0px 20px;
+  }
+  .hero-content{
+   display: flex;
+   flex-direction: column-reverse;
+   text-align: center;
+  }
+  .hero-right{
+   gap: 16px;
+
+  }
+}
+
+
+@media (max-width:480px){
+ .hero-subtitle 
+ ,.hero-title{
+   font-size: 30px;
+  }
+  .hero-burger-img{
+   width: 227px;
+   height: 229px;
+  }
+  .hero{
+ height: 380px;
+ background-size: 100% 380px;
+ ;
+}
+
 }

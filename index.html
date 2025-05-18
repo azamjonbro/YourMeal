@@ -8,16 +8,45 @@
   <meta name="description" content="Ushbu sayt bizning fast food marketlar uchun online sotuv magazin hisoblanadi">
   <meta name="keywords" content="yourmeal, Yourmeal, YourMeal, YOURMEAL, Your Meal, azamjonbro, fastfood, fast-food yourmeal.netlify.app">
   <link rel="stylesheet" href="./assets/CSS/main.css">
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  <title>YourMeal | fast food online delivery app</title>
 
 </head>
 <body>
  <!-- aside bu tashqi reklamalar uchun bolganiga bu yerda bazi qisman keraksiz bolgan qismlarni asidega yozamiz -->
- <header class="header">
-  <div class="container header__container"></div>  
-  <!-- bu class berish usuli bemm qoidasi hisoblanib shu holda yozib ketamiz -->
+  <header class="header">
+    <div class="container">
+      <a href="./index.html" class="logobox" data-aos="fade-down">
+        <img src="./assets/images/logo.png" loading="lazy" alt="It's logo img" width="150" height="35">
+      </a>
+    </div>
+  </header>
  </header>
- <main></main>
+
+ <main>
+  <section class="hero">
+    <div class="contianer hero-container d-flex j-center">
+      <div class="hero-content d-flex a-center">
+        <div class="hero-left" data-aos="fade-right">
+          <img src="./assets/images/pic.png" class="hero-burger-img" loading="lazy" alt="Bu burgernng rasmi" width="326" height="326">
+        </div>
+        <div class="hero-right" data-aos="fade-left">
+          <h2 class="hero-title">Только самые <span class="hero-subtitle">сочные бургеры!</span></h2>
+
+          <p class="hero-paragraph">
+            Бесплатная доставка от <b>599₽</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ </main>
  <footer></footer>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 </body>
 </html>
